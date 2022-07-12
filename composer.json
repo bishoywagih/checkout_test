@@ -1,0 +1,26 @@
+{
+    "name": "bishoywagih/task_prep",
+    "description": "test preparation for check24",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/Helpers/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "bishoyfouadzid",
+            "email": "bishoyfouad@zid.sa"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.4",
+        "ext-pdo": "*"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^6.1",
+        "phpstan/phpstan": "^1.8"
+    }
+}
